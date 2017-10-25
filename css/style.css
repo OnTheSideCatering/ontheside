@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poiret+One');
+
+/* ====== On The Side Catering CSS ====== */
+
+html, body {
+  height: 100%;
+}
+
+.nav {
+  width: 100%;
+  height: 120px;
+  background: #292e27;
+}
+
+.logo {
+  width: 200px;
+  height: 120px;
+  background: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto auto auto 50px;
+}
+
+.logoPage {
+  width: 80%;
+  height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  background: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 45px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.menu a {
+  color: white;
+  opacity: 0.6;
+  font-family: "Poiret One", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 300ms ease;
+}
+
+.menu a:hover {
+  opacity: 1;
+  transition: 300ms ease;
+}
+
+.social-media {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 45px 50px 0 0;
+}
+
+.social-media i {
+  margin: 0 5px;
+}
+
+.alert {
+  padding: 20px;
+  background: #2196f3;
+  color: white;
+  margin-bottom: 15px;
+  opacity: 1;
+  text-align: center;
+  transition: opacity 0.6s;
+}
+
+a{
+  text-decoration: none;
+}
+
+p span {
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#mobileMenu {
+  display: none;
+}
+
+.Sponsors {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.Sponsors a {
+  width: 300px;
+  height: 300px;
+}
+
+.Sponsors a:hover {
+  width: 310px;
+  height: 310px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Poiret One", sans-serif;
+  padding: 0 0 13px 0;
+  font-weight: 700;
+  border-bottom: 3px solid black;
+  font-size: 35px;
+  width: 80%;
+  margin: auto;
+}
+
+.sponsor-crappiemaster {
+  width: 300px;
+  height: 300px;
+  background: url("../img/crappiemasters.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  transition: 300ms ease;
+}
+
+.sponsor-crappiemaster:hover {
+  width: 310px;
+  height: 310px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.sponsor-FMOutdoors {
+  width: 300px;
+  height: 300px;
+  background: url("../img/FMOutdoors.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  transition: 300ms ease;
+}
+
+.sponsor-FMOutdoors:hover {
+  width: 310px;
+  height: 310px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.sponsor-DoubleDFishing {
+  width: 300px;
+  height: 300px;
+  background: url("../img/DoubleDFishing.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: auto;
+  transition: 300ms ease;
+}
+
+.sponsor-DoubleDFishing:hover {
+  width: 310px;
+  height: 310px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.break {
+  line-height: 100px;
+}
+
+.pannel {
+  padding: 30px;
+  background: #eee;
+}
+
+.about p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 78%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.food {
+  text-align: center;
+}
+
+.food ul p {
+  padding: 7px;
+  font-size: 21px;
+}
+
+.MasterTitle {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-family: "Poiret One", sans-serif;
+  font-weight: bold;
+  width: 80%;
+  margin: auto;
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  width: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+.get {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+
+.sides {
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.sides span {
+  font-weight: bold;
+}
+
+.price {
+  width: 50%;
+  margin: auto;
+  background: black;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 0.25em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+form {
+  text-align: center;
+}
+
+form input {
+  margin: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-family: "Josefin Sans", sans-serif;
+  width: 80%;
+  max-width: 300px;
+  border: none;
+  background: #eee;
+}
+
+.submit {
+  background: #2196f3;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 0.25em;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery .img01,.img02,.img03,.img04,.img05 {
+  display: inline-block;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 500px;
+}
+
+.img01 {
+  background: url("../img/01.jpg");
+}
+
+.img02 {
+  background: url("../img/02.jpg");
+}
+
+.img03 {
+  background: url("../img/03.jpg");
+}
+
+.img04 {
+  background: url("../img/06.jpg");
+}
+
+.img05 {
+  background: url("../img/05.jpg");
+}
+
+/* ====== Large Screen ====== */
+
+@media screen and (min-width: 1090px) {
+
+  .pannel {
+    height: 500px;
+  }
+
+  .Sponsors {
+    height: 500px;
+  }
+
+}
+
+
+/* ====== Mobile ====== */
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 100px;
+    margin: auto auto auto 25px;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 120px;
+    background: #292e27;
+    padding: 20px 0;
+  }
+
+  .menu li {
+    display: block;
+    margin: 10px auto;
+  }
+
+  .social-media {
+    display: none;
+  }
+
+  #mobileMenu {
+    display: block;
+  }
+
+  .burgerNav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px 30px 0 0;
+    color: white;
+    padding-left: 10px;
+    border-left: 2px solid white;
+    padding: 5px 10px;
+  }
+
+  .madeby {
+    float: none;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+  }
+
+  .copyright {
+    display: none;
+  }
+
+}
